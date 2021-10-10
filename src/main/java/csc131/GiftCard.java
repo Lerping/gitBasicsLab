@@ -63,7 +63,7 @@ public class GiftCard
         
         if (amount < 0.0)
         {
-            result = "Invalid Transaction";
+            result = "Invalid Transaction, balance is below 0; why have you done this";
         }
         else
         {
